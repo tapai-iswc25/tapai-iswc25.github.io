@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAPAI @ ISWC'25 Workshop</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80">
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">TAPAI @ ISWC'25</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#motivation">Motivation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#submissions">Submissions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#chairs">Organizers</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="mb-4 text-white">Trust, Autonomy and Accountability in PKG-Based Agentic AI (TAPAI)</h1>
+            <p class="lead mb-4">Dagstuhl-style workshop at ISWC 2025</p>
+            <a href="#submissions" class="btn btn-primary btn-lg">Submit a Position Paper</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="section-title text-center">
+                            <h2>About the Workshop</h2>
+                        </div>
+                        <p class="lead mb-5 about-lead-justified">This workshop will address how personal knowledge graphs (PKGs) can help to engender trust, autonomy and accountability in the context of agentic artificial intelligence. The question of how AI agents could leverage personal data to provide higher levels of automation and personalization for users has not been well-explored. While foundational models can be trained on public corpora of text, the recent emergence of computer-using agents, personal agents, etc., raise questions about how the user's personal data can be used, and concerns about how they could be abused, in such a setting. Can AI agents be trusted with personal and potentially highly-sensitive user information? How can users maintain autonomy over their personal data in such a setting? How can AI agents and providers be held accountable when personal data are abused?  In this session, we will address research questions regarding the use of PKGs to provide users with enhanced control and safety guarantees regarding how AI agents access and use their personal data.</p>
+                        
+                        <h4 class="text-center mb-3">Key Topics</h4>
+                        <ul class="topic-list text-center mb-5">
+                            <li>Trust</li><li>Autonomy</li><li>Sovereignty</li><li>Accountability</li>
+                            <li>Ethics</li><li>Diversity</li><li>PKGs</li><li>Agentic AI</li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="motivation" class="section-padding bg-light">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>Motivation & Objectives</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 mx-auto about-lead-justified">
+                        <p>Agents are coming. In November 2024, NVIDIA's CEO <a href="https://www.cxtoday.com/customer-data-platform/nvidia-ceo-jenson-huangs-vision-for-agentic-ai-in-2025-the-rundown">declared</a> that 2025 would be the “year of AI Agents”. With OpenAI's Operator and Google's Jarvis, the personal AI agent market is projected to be worth around <strong>$56.3 billion by 2034</strong> (<a href="https://market.us/report/personal-ai-assistant-market">source</a>). The success of Knowledge Graphs (KGs) in major AI services indicates their critical role in this new agent space, especially for personal use.</p>
+                        <p>However, concerns about personal data abuse and the infringement of individual rights are growing. Sir Tim Berners-Lee labeled the Web “anti-human” due to data over-centralization in an <a href="https://www.vanityfair.com/news/2018/07/the-man-who-created-the-world-wide-web-has-some-regrets">interview in 2018</a>. Legislation like the EU AI Act aims to ensure AI respects fundamental human rights. Motivated by these issues and a <a href="https://www.dagstuhl.de/25051">prior Dagstuhl seminar</a>, this ISWC Dagstuhl-style workshop aims to explore the challenges of using Personal Knowledge Graphs (PKGs) in AI agents. We wish to examine these aspects further through the following topics:</p>
+                        
+                        <div class="row mt-5">
+                             <div class="col-md-6 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary"><i class="bi bi-shield-check"></i> Trust</h5>
+                                        <p class="card-text">What are the key requirements for a PKG-based agentic AI to enhance human & institutional trust?</p>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-md-6 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary"><i class="bi bi-person-check"></i> Autonomy</h5>
+                                        <p class="card-text">How can individuals retain meaningful autonomy when interacting with or delegating to PKG-Based Agentic AI systems?</p>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-md-6 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary"><i class="bi bi-journal-check"></i> Accountability</h5>
+                                        <p class="card-text">How can PKG-based agentic AI be made accountable for decisions they inform or make?</p>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-md-6 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary"><i class="bi bi-globe-americas"></i> Ethical Diversity</h5>
+                                        <p class="card-text">How can such systems ensure the surfacing of diverse, ethically informed perspectives rather than reinforcing biased views?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="submissions" class="section-padding">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>Call for Position Papers</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto about-lead-justified">
+                        <p class="lead">We invite participants to submit a short (1-page) position statement addressing one or more of the core research questions. These statements will help seed our discussions and organize thematic groups.</p>
+                        <p class="lead">Your position paper should outline your perspective, research, or relevant experience related to trust, autonomy, accountability, or ethical diversity in PKG-based Agentic AI. We also welcome walk-in participants who wish to present their positions, time permitting.</p>
+                        <div class="mt-5 text-center">
+                            <a href="https://bit.ly/tapai-iswc2025" class="btn btn-primary btn-lg" aria-disabled="true">Submission Link</a>
+                            <!-- <p class="mt-3 text-muted">Deadline: [To Be Announced]</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule" class="section-padding bg-light">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>Format & Schedule</h2>
+                </div>
+                 <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <p class="about-lead-justified">The workshop will be highly interactive, prioritizing informal discussions over traditional paper presentations, in the spirit of a Dagstuhl Seminar. We will use submitted position papers to form discussion groups focused on our core research questions. The day will conclude with drafting a shared outcomes document outlining open challenges and future collaborations.</p>
+                        <h4 class="text-center mt-5 mb-4">Tentative Schedule</h4>
+                        <div class="table-responsive shadow-sm rounded">
+                             <table class="table table-striped table-hover text-center schedule-table">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th scope="col" style="width: 25%;">Time</th>
+                                        <th scope="col">Activity</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>09:00 – 09:30</td><td>Welcome, Objectives, and Introductions</td></tr>
+                                    <tr><td>09:30 – 10:30</td><td>Lightning Round: Participant Highlights (3-min intros)</td></tr>
+                                    <tr><td>10:30 – 10:45</td><td>Coffee Break</td></tr>
+                                    <tr><td>10:45 – 12:15</td><td>Thematic Group Discussions – Round 1</td></tr>
+                                    <tr><td>12:15 – 12:45</td><td>Report Back: Summary of Key Insights</td></tr>
+                                    <tr><td>12:45 – 14:00</td><td>Lunch</td></tr>
+                                    <tr><td>14:00 – 15:30</td><td>Thematic Group Discussions – Round 2 (Synergies)</td></tr>
+                                    <tr><td>15:30 – 16:00</td><td>Report Back: Synthesis and Emergent Questions</td></tr>
+                                    <tr><td>16:00 – 16:30</td><td>Action Planning: Roadmap & Collaborations</td></tr>
+                                    <tr><td>16:30 – 17:00</td><td>Closing Plenary and Reflection</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="text-center mt-3 fst-italic"><small>Note: Times will be adjusted based on the main conference schedule.</small></p>
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+        <section id="chairs" class="section-padding">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>Organizing Committee</h2>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                        <div class="card chair-card w-100 text-center">
+                            <div class="card-body d-flex flex-column">
+                                <img src="https://kmi.open.ac.uk/images/people/medium/john-domingue.png" class="rounded-circle mx-auto shadow" alt="John Domingue">
+                                <h4 class="card-title mt-4 mb-1">John Domingue</h4>
+                                <p class="text-muted">The Open University, UK</p>
+                                <p class="card-text small flex-grow-1">Professor of Computer Science at KMi, chair of the ESWC steering committee. Research in semantics, AI, Web, and eLearning. Leading work on Generative AI's impact on higher education.</p>
+                                <div class="chair-links mt-3">
+                                    <a href="mailto:john.domingue@open.ac.uk" title="Email"><i class="bi bi-envelope-fill"></i></a>
+                                    <a href="https://kmi.open.ac.uk/people/member/john-domingue" target="_blank" title="Homepage"><i class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                        <div class="card chair-card w-100 text-center">
+                             <div class="card-body d-flex flex-column">
+                                <img src="https://aidanhogan.com/img/me-sp.png" class="rounded-circle mx-auto shadow" alt="Aidan Hogan">
+                                <h4 class="card-title mt-4 mb-1">Aidan Hogan</h4>
+                                <p class="text-muted">University of Chile</p>
+                                <p class="card-text small flex-grow-1">Associate Professor and Director of the Dept. of Computer Science. Research interests in Semantic Web, Graph Databases, Knowledge Graphs, and Information Extraction.</p>
+                                <div class="chair-links mt-3">
+                                    <a href="mailto:ahogan@dcc.uchile.cl" title="Email"><i class="bi bi-envelope-fill"></i></a>
+                                    <a href="https://aidanhogan.com/" target="_blank" title="Homepage"><i class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                        <div class="card chair-card w-100 text-center">
+                             <div class="card-body d-flex flex-column">
+                                <img src="https://www.southampton.ac.uk/sites/default/files/styles/max_1300x1300/public/staff/ldig1y14-75102.jpg.webp" class="rounded-circle mx-auto shadow" alt="Luis-Daniel Ibáñez">
+                                <h4 class="card-title mt-4 mb-1">Luis-Daniel Ibáñez</h4>
+                                <p class="text-muted">University of Southampton, UK</p>
+                                <p class="card-text small flex-grow-1">Lecturer in Electronics and Computer Science. Research focuses on Data Marketplaces and Federated/Decentralised Knowledge Graph Management.</p>
+                                <div class="chair-links mt-3">
+                                    <a href="mailto:L.D.Ibanez@soton.ac.uk" title="Email"><i class="bi bi-envelope-fill"></i></a>
+                                    <a href="https://www.southampton.ac.uk/people/5xfhk2/doctor-luis-daniel-ibanez" target="_blank" title="Homepage"><i class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                        <div class="card chair-card w-100 text-center">
+                             <div class="card-body d-flex flex-column">
+                                <img src="https://oshani.info/author/oshani-seneviratne/avatar_hu5383073719754426958.jpg" class="rounded-circle mx-auto shadow" alt="Oshani Seneviratne">
+                                <h4 class="card-title mt-4 mb-1">Oshani Seneviratne</h4>
+                                <p class="text-muted">Rensselaer Polytechnic Institute, USA</p>
+                                <p class="card-text small flex-grow-1">Assistant Professor of Computer Science leading the BRAINS Lab. Research in decentralized systems, knowledge graphs, blockchain, and web science. </p>
+                                <div class="chair-links mt-3">
+                                    <a href="mailto:senevo@rpi.edu" title="Email"><i class="bi bi-envelope-fill"></i></a>
+                                    <a href="https://oshani.info" target="_blank" title="Homepage"><i class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                        <div class="card chair-card w-100 text-center">
+                             <div class="card-body d-flex flex-column">
+                                <img src="https://www.l3s.de/wp-content/uploads/2022/08/cropped-Vidal-Maria-Esther-scaled-1.jpg" class="rounded-circle mx-auto shadow" alt="Maria-Esther Vidal">
+                                <h4 class="card-title mt-4 mb-1">Maria-Esther Vidal</h4>
+                                <p class="text-muted">Leibniz University Hannover, TIB & L3S, Germany</p>
+                                <p class="card-text small flex-grow-1">Full Professor leading the Scientific Data Management group at TIB. Research in data management, semantic integration, and ML over knowledge graphs.</p>
+                                <div class="chair-links mt-3">
+                                    <a href="mailto:vidal@l3s.de" title="Email"><i class="bi bi-envelope-fill"></i></a>
+                                    <a href="https://www.l3s.de/people/members/maria-esther-vidal/" target="_blank" title="Homepage"><i class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="outcomes" class="section-padding bg-light">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>Expected Outcomes</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <p class="about-lead-justified">This workshop aims to produce concrete short-term outcomes, including a joint manifesto summarizing key insights, answers to core research questions, system requirements, and practical examples. Participants will also co-develop a set of design recommendations for building trustworthy, user-centered PKG-based personal agents.</p>
+                        <p class="about-lead-justified">In the longer term, we plan to publish position papers and foster new research collaborations. All workshop materials will be openly shared on this website to support transparency and community engagement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="py-4 text-center">
+        <div class="container">
+            <p class="mb-0">© 2025 TAPAI Workshop Organizers. All Rights Reserved.</p>
+            <p><a href="#">Back to top</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <script>
+        // Change navbar style on scroll
+        const navbar = document.getElementById('navbar');
+        if (navbar) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('navbar-scrolled');
+                } else {
+                    navbar.classList.remove('navbar-scrolled');
+                }
+            });
+        }
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a.nav-link[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
