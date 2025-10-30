@@ -239,3 +239,133 @@ footer a:hover {
     padding: 30px;
     margin: 30px 0;
 }
+
+/* Agenda Styles */
+.agenda-session {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    overflow: hidden;
+    border: 1px solid #e9ecef;
+}
+
+.session-header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #0b5ed7 100%);
+    color: white;
+    padding: 20px 30px;
+    margin: 0;
+}
+
+.session-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.agenda-item {
+    display: flex;
+    padding: 25px 30px;
+    border-bottom: 1px solid #f8f9fa;
+    transition: background-color 0.3s ease;
+}
+
+.agenda-item:last-child {
+    border-bottom: none;
+}
+
+.agenda-item:hover {
+    background-color: #f8f9fa;
+}
+
+.agenda-item.break-item {
+    background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+    border-left: 4px solid #2196f3;
+}
+
+.agenda-item.break-item:hover {
+    background: linear-gradient(135deg, #d1ecf1 0%, #e8d5e8 100%);
+}
+
+.time-badge {
+    background: var(--primary-color);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    min-width: 120px;
+    text-align: center;
+    margin-right: 25px;
+    flex-shrink: 0;
+    height: fit-content;
+}
+
+.agenda-content {
+    flex: 1;
+}
+
+.agenda-content h5 {
+    color: var(--dark-text);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.agenda-content p {
+    color: #6c757d;
+    margin-bottom: 8px;
+}
+
+.speaker-info {
+    color: var(--primary-color) !important;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0 !important;
+}
+
+.speaker-info i {
+    margin-right: 8px;
+}
+
+.talk-list {
+    margin-top: 15px;
+}
+
+.talk-item {
+    background: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 3px solid var(--primary-color);
+}
+
+.talk-item:last-child {
+    margin-bottom: 0;
+}
+
+.talk-item strong {
+    color: var(--dark-text);
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .agenda-item {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .time-badge {
+        margin-right: 0;
+        margin-bottom: 15px;
+        align-self: flex-start;
+    }
+    
+    .session-header {
+        padding: 15px 20px;
+    }
+    
+    .session-title {
+        font-size: 1.3rem;
+    }
+}
